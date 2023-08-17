@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "arial-rounded-light";
+  src: url("../fonts/arial-rounded-light.ttf"); }
+@font-face {
+  font-family: "arial-rounded-mt";
+  src: url("../fonts/arial-rounded-mt.ttf"); }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "arial-rounded-mt"; }
+
+p {
+  font-family: "arial-rounded-light"; }
+
+html {
+  font-size: 16px; }
+
+body {
+  color: #000;
+  font-family: "arial-rounded-light"; }
+
+/*-----------------------------
+ SECCION FOOTER
+-----------------------------*/
+.pie-de-pagina {
+  background-color: #255C69;
+  padding: 1rem; }
+
+.pie-de-pagina p {
+  color: #fff;
+  text-align: center; }
+
+.pie-de-pagina p:nth-child(2) {
+  font-size: .8rem; }
+
+.pie-de-pagina ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.pie-de-pagina ul li {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.pie-de-pagina ul li:nth-child(1) {
+  text-align: right;
+  margin-right: 1rem; }
+
+.pie-de-pagina ul li:nth-child(2) {
+  text-align: left;
+  margin-left: 1rem; }
+
+.pie-de-pagina ul li:nth-child(1) a img {
+  opacity: .75;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.pie-de-pagina ul li:nth-child(1) a img:hover {
+  opacity: 1; }
+
+.pie-de-pagina ul li:nth-child(2) a img {
+  opacity: .75;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.pie-de-pagina ul li:nth-child(2) a img:hover {
+  opacity: 1; }
+
+
+
+/*-----------------------------
+ PAGINA TERMINOS Y CONDICIONES
+-----------------------------*/
+.encabezado-tyc {
+  /* background-image: linear-gradient(120deg, #AA8739 0%, #255C69 100%); */
+  background-color: #255C69;
+  margin-bottom: 1rem; }
+
+.encabezado-tyc .contenedor-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
+
+.encabezado-tyc .contenedor-logo img {
+  width: 150px;
+  height: 130px;
+  padding: 1rem;
+  margin: 1rem; }
+
+/*# sourceMappingURL=estilos.css.map */
